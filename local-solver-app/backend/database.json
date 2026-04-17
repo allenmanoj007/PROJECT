@@ -1,0 +1,231 @@
+{
+  "users": [
+    {
+      "_id": "user-uuid-1",
+      "email": "riya.admin@campus.edu",
+      "password": "$2b$10$dY4tlUXQdX7YVny1ZCnd8uxBE7UmukvVJPyDAI8SYbO8g9EGp1uby",
+      "role": "admin",
+      "createdAt": "2026-04-15T10:00:00.000Z"
+    },
+    {
+      "_id": "user-uuid-2",
+      "email": "arjun.kumar@campus.edu",
+      "password": "mocked-hash-password",
+      "role": "user",
+      "createdAt": "2026-04-16T14:30:00.000Z"
+    },
+    {
+      "_id": "user-uuid-3",
+      "email": "neha.sharma@campus.edu",
+      "password": "mocked-hash-password",
+      "role": "user",
+      "createdAt": "2026-04-17T09:15:00.000Z"
+    },
+    {
+      "_id": "91bd7bdc-b953-425c-bc3f-5f0b760a4372",
+      "email": "",
+      "password": "$2b$10$K0tzHAVaNiUNARcgUyMqwu4WUaCqHxDFZ6RHWfzCDSx/bLhMai1yS",
+      "role": "user",
+      "createdAt": "2026-04-17T12:13:10.884Z"
+    },
+    {
+      "_id": "4f352430-fb26-4c72-86aa-c4f52b168a91",
+      "email": "allenmanoj49@gmail.com",
+      "password": "$2b$10$73VfSt6wTk.AYWmmBA29ouTD/vq/6zVU/z/6zqsQaokb7pD7GTnni",
+      "role": "user",
+      "createdAt": "2026-04-17T12:21:06.969Z"
+    },
+    {
+      "_id": "0cf9a538-bb2a-450e-b4d6-5281d0db4b20",
+      "email": "allenmanoj772@gmail.com",
+      "password": "$2b$10$tEd4gGzgFXAo8Z4Wcj4V0egfilRRATkfQYspY5QELgiR5Z4WtbiKG",
+      "role": "user",
+      "createdAt": "2026-04-17T12:31:12.303Z"
+    }
+  ],
+  "posts": [
+    {
+      "_id": "post-uuid-1",
+      "title": "Massive Pothole near the Main Gate",
+      "description": "There is a severe pothole right outside the main campus gate causing massive traffic delays and potentially damaging vehicles. Needs urgent municipal attention.",
+      "category": "Complaint",
+      "location": "North Campus Main Gate",
+      "imageUrl": "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?auto=format&fit=crop&q=80&w=800",
+      "status": "In Progress",
+      "author": "user-uuid-2",
+      "upvotes": [
+        "user-uuid-1",
+        "user-uuid-2",
+        "user-uuid-3"
+      ],
+      "createdAt": "2026-04-16T15:00:00.000Z"
+    },
+    {
+      "_id": "post-uuid-2",
+      "title": "Lost Wallet (Black Leather)",
+      "description": "I misplaced my black leather wallet near the library cafeteria yesterday. It contains my ID cards and debit card. Reward for the finder!",
+      "category": "Lost & Found",
+      "location": "Central Library Cafeteria",
+      "imageUrl": "https://images.unsplash.com/photo-1627068579973-2e400fd9ce13?auto=format&fit=crop&q=80&w=800",
+      "status": "Open",
+      "author": "user-uuid-3",
+      "upvotes": [
+        "user-uuid-2"
+      ],
+      "createdAt": "2026-04-17T10:20:00.000Z"
+    },
+    {
+      "_id": "post-uuid-3",
+      "title": "Upcoming Career Fair 2026",
+      "description": "The annual Career Fair is scheduled for next Friday. Top tech companies and startups will be visiting. Don't forget to register through the portal!",
+      "category": "Notice",
+      "location": "Auditorium Hub",
+      "imageUrl": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80&w=800",
+      "status": "Open",
+      "author": "user-uuid-1",
+      "upvotes": [
+        "user-uuid-2",
+        "user-uuid-3"
+      ],
+      "createdAt": "2026-04-14T08:00:00.000Z"
+    },
+    {
+      "_id": "post-uuid-4",
+      "title": "Tech Symposium & Hackathon",
+      "description": "Join us for 48 hours of uninterrupted coding. Free food, great prizes, and amazing networking opportunities with industry mentors.",
+      "category": "Event",
+      "location": "Computer Science Block",
+      "imageUrl": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&q=80&w=800",
+      "status": "Resolved",
+      "author": "user-uuid-1",
+      "upvotes": [
+        "user-uuid-1",
+        "user-uuid-3"
+      ],
+      "createdAt": "2026-04-10T12:00:00.000Z"
+    },
+    {
+      "_id": "post-uuid-5",
+      "title": "Unscheduled Power Outage",
+      "description": "Block B has been facing random power outages for the last 3 hours. The backup generators seem to be malfunctioning.",
+      "category": "Complaint",
+      "location": "Hostel Block B",
+      "imageUrl": "https://images.unsplash.com/photo-1617300705051-fb18e9c405cb?auto=format&fit=crop&q=80&w=800",
+      "status": "Open",
+      "author": "user-uuid-2",
+      "upvotes": [
+        "user-uuid-1",
+        "user-uuid-2",
+        "user-uuid-3"
+      ],
+      "createdAt": "2026-04-17T11:45:00.000Z"
+    },
+    {
+      "_id": "post-uuid-6",
+      "title": "Found: AirPods Case",
+      "description": "Found a white AirPods case (without the actual AirPods) near the chemistry lab on the second floor. Handed it over to the security desk.",
+      "category": "Lost & Found",
+      "location": "Chemistry Lab Building",
+      "imageUrl": "",
+      "status": "Resolved",
+      "author": "user-uuid-3",
+      "upvotes": [],
+      "createdAt": "2026-04-16T09:30:00.000Z"
+    },
+    {
+      "_id": "post-uuid-7",
+      "title": "Streetlight Broken on 5th Avenue",
+      "description": "Its completely dark on 5th avenue road leading from the station. The second streetlight has been shattered.",
+      "category": "Complaint",
+      "location": "5th Avenue Road",
+      "imageUrl": "",
+      "status": "Open",
+      "author": "user-uuid-2",
+      "upvotes": [
+        "user-uuid-1"
+      ],
+      "createdAt": "2026-04-15T20:15:00.000Z"
+    },
+    {
+      "_id": "post-uuid-8",
+      "title": "Campus Music Fest 2026",
+      "description": "Get ready for the biggest music festival of the year! Local indie bands and a surprise DJ set. Book tickets now.",
+      "category": "Event",
+      "location": "Main Grounds",
+      "imageUrl": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?auto=format&fit=crop&q=80&w=800",
+      "status": "Open",
+      "author": "user-uuid-1",
+      "upvotes": [
+        "user-uuid-2",
+        "user-uuid-3",
+        "user-uuid-1"
+      ],
+      "createdAt": "2026-04-12T16:00:00.000Z"
+    },
+    {
+      "_id": "post-uuid-9",
+      "title": "Exam Schedule Revision",
+      "description": "Due to the upcoming state elections, the end-semester exam dates have been pushed back by one week. Check the portal.",
+      "category": "Notice",
+      "location": "Online Portal",
+      "imageUrl": "",
+      "status": "Open",
+      "author": "user-uuid-1",
+      "upvotes": [
+        "user-uuid-3"
+      ],
+      "createdAt": "2026-04-17T08:05:00.000Z"
+    },
+    {
+      "_id": "post-uuid-10",
+      "title": "Stray Dogs near Canteen",
+      "description": "There is a pack of aggressive stray dogs near the back completely blocking student access to the second canteen area. Authorities need to handle this humanely.",
+      "category": "Complaint",
+      "location": "Canteen Annex",
+      "imageUrl": "https://images.unsplash.com/photo-1544568100-847a948585b9?auto=format&fit=crop&q=80&w=800",
+      "status": "Open",
+      "author": "user-uuid-3",
+      "upvotes": [
+        "user-uuid-2"
+      ],
+      "createdAt": "2026-04-16T18:20:00.000Z"
+    }
+  ],
+  "comments": [
+    {
+      "_id": "comment-uuid-1",
+      "text": "I almost tripped over it today morning! Thanks for reporting.",
+      "post": "post-uuid-1",
+      "author": "user-uuid-3",
+      "createdAt": "2026-04-16T16:10:00.000Z"
+    },
+    {
+      "_id": "comment-uuid-2",
+      "text": "Authorities have been notified, scheduling repair for next week.",
+      "post": "post-uuid-1",
+      "author": "user-uuid-1",
+      "createdAt": "2026-04-17T09:00:00.000Z"
+    },
+    {
+      "_id": "comment-uuid-3",
+      "text": "I think I saw it sitting on the third bench near the window. Check with the librarian!",
+      "post": "post-uuid-2",
+      "author": "user-uuid-2",
+      "createdAt": "2026-04-17T11:00:00.000Z"
+    },
+    {
+      "_id": "comment-uuid-4",
+      "text": "We've raised a ticket with the electricity board.",
+      "post": "post-uuid-5",
+      "author": "user-uuid-1",
+      "createdAt": "2026-04-17T12:00:00.000Z"
+    },
+    {
+      "_id": "d32d9441-73b1-4745-a96d-45d0ecab24a4",
+      "text": "GSFGSDFFG",
+      "post": "post-uuid-5",
+      "author": "0cf9a538-bb2a-450e-b4d6-5281d0db4b20",
+      "createdAt": "2026-04-17T12:31:39.793Z"
+    }
+  ]
+}

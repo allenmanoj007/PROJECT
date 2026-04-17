@@ -1,3 +1,15 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+  "version": 2,
+  "builds": [
+    {
+      "src": "vite.config.js",
+      "use": "@vercel/vite"
+    }
+  ],
+  "rewrites": [
+    {
+      "src": "/*",
+      "dest": "/dist/index.html"
+    }
+  ]
 }
